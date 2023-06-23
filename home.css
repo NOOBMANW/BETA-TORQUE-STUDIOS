@@ -1,0 +1,149 @@
+body {
+    font-size: 15pt;
+}
+.nav{
+  display: flex;
+  font-family:fantasy;
+  background-color: black;
+  display: flex;
+}
+
+.nav :hover{
+    color: gray;
+}
+.nav li{
+  list-style: none;
+}
+.nav li a{
+  font-family: fantasy;
+  color:white ;
+  font-size: 19pt;
+  padding: 55px;
+  text-decoration: none;
+}
+.h1{
+  text-align: center;
+  font-size: 20pt;
+  font-weight: bold;
+  justify-content: center;
+  color: darkblue;
+  font-family: fantasy;
+  
+}
+img{
+  width: 100%;
+  margin-top: 30px;
+}
+#img2{
+  width: 45%;
+}
+.div{
+  display: flex;
+}
+#img1{
+  width: 40%;
+}
+.div1{
+  display: flex;
+}
+#img3{
+  width: 45%;
+}
+.div2{
+  display: flex;
+}
+.navbar{
+  width:100%;
+  border: 3px solid grey;
+  background-color:black;
+  display: flex;
+}
+.name{
+  border-radius: 30px;
+  font-size: 18pt;
+  width: 50%;
+  border: 3px solid grey;
+  height: 30px;
+  text-align: center;
+  margin: 10px;
+}
+.name1{
+  border-radius: 30px;
+  font-size: 18pt;
+  width: 50%;
+  border: 3px solid grey;
+  height: 30px;
+  text-align: center;
+  margin: 10px;
+}
+.name2{
+    border-radius: 30px;
+  font-size: 18pt;
+  width: 50%;
+  border: 3px solid grey;
+  height: 30px;
+  text-align: center;
+  margin: 10px;
+}
+#submit{
+    border-radius: 30px;
+  font-size: 18pt;
+  width: 49%;
+  border: 3px solid grey;
+  height: 40px;
+  text-align: center;
+  margin: 10px;
+}
+.contact{
+  width: 65%;
+  border-radius: 30px;
+  font-size: 30px;
+  padding: 15px;
+  margin-top: 30px;
+  border: 3px solid grey;
+  text-align: center;
+  justify-content: center;
+}
+.class{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.p{
+  font-size: 20pt;
+  font-family: fantasy;
+}
+p{
+  font-family: fantasy;
+}
+
+div img{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.burger{
+  display: none;
+   position: absolute;
+   cursor: pointer;
+   right: 5%;
+   
+}
+
+.line{
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 3px;
+}
+@media only screen and (max-width: 813px){
+  .nav{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .burger{
+    display: block;
+  }
+
+}
